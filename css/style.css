@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+/* Header Starts */
+header {
+  background-color: #121b2a;
+  padding: 10px 0px;
+}
+
+.wrapper {
+  width: 80%;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.wrapper .logo {
+  width: 18%;
+  float: left;
+}
+
+.wrapper .logo img{
+    width: 100%;
+}
+
+.menu {
+  width: 70%;
+  float: right;
+  margin-top: 30px;
+}
+
+.menu ul {
+    float: right;
+}
+.menu ul li {
+  list-style-type: none;
+  float: left;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  font-size: 15px;
+  font-weight: 400;
+  color: #fff;
+  text-transform: uppercase;
+  display: inline-block;
+  padding: 0px 20px;
+  transition: 0.3s;
+}
+
+.menu ul li:last-child a{
+    padding-right: 0;
+}
+
+.menu ul li a:hover {
+  color: #0779b8;
+}
+/* Header Ends */
